@@ -73,6 +73,7 @@ int main() {
             case 9:
                 // save the data to output files
                 movies.save("movies_new.csv");
+                cout << "Saved new movies files to movies_new.csv" << endl;
                 break;
             default:
                 cout << "Invalid selection " << endl;
